@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  cohort: MyString
+  email: MyString
+  password_digest: <%= BCrypt::Password.create('secret') %>
+  wins: 1
+  losses: 1
+
+two:
+  name: MyString
+  cohort: MyString
+  email: MyString
+  password_digest: <%= BCrypt::Password.create('secret') %>
+  wins: 1
+  losses: 1

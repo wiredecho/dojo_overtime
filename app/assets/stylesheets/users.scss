@@ -1,0 +1,31 @@
+// Place all the styles related to the User controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body{
+	background-color:#DDDDDD;
+}
+		#box1, #box2{
+			height: 200px;
+			width: 300px;
+			position: relative;
+			display: inline-block;
+			vertical-align: top;
+			top: 30px;
+		/*	left: 25%;*/
+		}
+	
+
+	.racket{
+		margin-top: 15px;
+	}
+
+	#logo{
+		font-size:170px;
+	
+	}
+
+	#orange{
+		color:orange;
+		font-size:170px;
+	}
